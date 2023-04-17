@@ -47,9 +47,19 @@ main_l11:
 int 0
 return
 main_l12:
+txn Sender
+byte "creator"
+app_global_get
+==
+assert
 int 1
 return
 main_l13:
+txn Sender
+byte "creator"
+app_global_get
+==
+assert
 int 1
 return
 main_l14:
@@ -59,6 +69,9 @@ main_l15:
 int 1
 return
 main_l16:
+byte "creator"
+txn Sender
+app_global_put
 int 1
 return`
 export const clearSource = `#pragma version 8
