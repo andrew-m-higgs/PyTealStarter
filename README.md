@@ -2,6 +2,8 @@
 
 Welcome to the PyTeal Starter Kit! This repository provides you with the necessary starter code to begin writing Algorand TEAL smart contract applications using PyTeal. PyTeal is a Python library that allows you to write TEAL programs using Python syntax. With this starter kit, you'll be able to compile your decentralized application (dApp) and generate TEAL approve and clear byte code, which can be exported as strings in a TypeScript file for use with TypeScript.
 
+**For use as educational material for bootcamps held by https://gradian.network.**
+
 ## Getting Started
 
 ### Prerequisites
