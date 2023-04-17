@@ -16,7 +16,7 @@ python3 --version
 
 To install PyTeal, open your terminal and run the following command:
 
-``sh
+```sh
 pip3 install pyteal
 ```
 
