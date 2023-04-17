@@ -85,7 +85,7 @@ def clear_program():
 
 
 """
-Compile to .teal bytecode, and also as string variables exproted from typescript for easy access.
+Compile to TEAL bytecode, and also as string variables exproted from typescript for easy access.
 """
 if __name__ == "__main__":
     # Compiles the approval program
